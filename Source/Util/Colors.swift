@@ -5,16 +5,16 @@ import UIKit
 /// for iOS <13, the light varient will be used
 struct Colors {
     
-    @DynamicUIColor(light: .white, dark: .black)
+    @DynamicUIColor(light: .white, dark: .lightGray)
     static var background: UIColor
     
-    @DynamicUIColor(light: .black, dark: .white)
+    @DynamicUIColor(light: .lightGray, dark: .white)
     static var text: UIColor
     
     @DynamicUIColor(light: .gray, dark: .lightGray)
     static var secondaryText: UIColor
     
-    @DynamicUIColor(light: UIColor(white: 0.9, alpha: 1), dark: .black)
+    @DynamicUIColor(light: UIColor(white: 0.9, alpha: 1), dark: .lightGray)
     static var mutedBackground: UIColor
     
 }
